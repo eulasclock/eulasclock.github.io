@@ -1,0 +1,82 @@
+### Site Settings ###
+title               : Eula Zhong
+description         : >-
+                      A coder, maker, and unprofessional artist <br />
+                      Robotic Eng. & Computer Science WPI '20 <br />
+                      Imcomming Google SWE 
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : eulasclock/eulasclock.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - projects
+  - posts
+  # - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Eula Zhong
+  image             : /assets/img/profile.jpg
+  # behance           : your_username
+# dribbble          : your_username
+  email             : lzhong2@wpi.edu
+  # facebook          : your_username
+  github            : eulasclock
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : eulazhong
+  # medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  # twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+  flickr            : 108920253@N07
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: false
+    permalink: /projects/:name
+  # elements:                                             # For Documentation Only
+  #   output: true                                        # For Documentation Only
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  # - scope:                                              # For Documentation Only
+  #     path: ""                                          # For Documentation Only
+  #     type: "elements"                                  # For Documentation Only
+  #   values:                                             # For Documentation Only
+  #     layout: "element"                                 # For Documentation Only
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
