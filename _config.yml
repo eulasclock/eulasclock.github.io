@@ -2,8 +2,7 @@
 title               : Eula Zhong
 description         : >-
                       A coder, maker, and unprofessional artist <br />
-                      Robotic Eng. & Computer Science WPI '20 <br />
-                      Imcomming Google SWE 
+                       Robotic Eng. & Computer Science WPI '20 <br />
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : eulasclock/eulasclock.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
